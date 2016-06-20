@@ -1,4 +1,4 @@
-# Java-Parser-UML-Generator
+# Java Parser UML Generator
 
 ## Prerequisites
 
@@ -19,8 +19,8 @@
 Javaparser is lightweight and easy to use parser library which parses java code and provides AST (Abstract Syntax Tree). Javaparser uses javacc (Java Compiler Compiler) for generating AST from Java code.
 One can analyze code structure, Javadoc or comments using AST created by Javaparser library.
 
-### 2. GraphViz
 GraphViz is open source graph visualization software. GraphViz supports dot(.) notation input for drawing directed graphs. The GraphViz software takes input as simple text file and converts it to diagram. GraphViz provides support for generating output diagram in PDF, Images or SVG format. It has many useful features such as custom coloring, shapes and custom messages.
+### 2. GraphViz
 Limitation: GraphViz application is stand-alone application and can not be integrated in java project without third party library.
 
 ### 3. PlantUML
@@ -29,7 +29,7 @@ As PlantUML uses GraphViz internally, most of the functions that are offered by 
 
 ## Testing
 ### Input
-Sample test cases can be found in sample\_test\_cases folder
+Sample test cases can be found in *sample\_test\_cases* folder
 
 ### Output
 #### Test Case 1
